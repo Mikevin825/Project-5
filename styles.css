@@ -1,0 +1,157 @@
+                                                                                        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cedarville+Cursive&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+                                                                                        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+                                                                                        body {
+                                                                                            font-family: sans-serif;
+                                                                                            background-color: #f0f0f0;
+                                                                                            min-height: 100vh;
+                                                                                        }
+                                                                                        
+                                                                                        .main {
+                                                                                            min-height: 100vh;
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            align-items: center;
+                                                                                        }
+                                                                                        
+                                                                                        .container {
+                                                                                            display: flex;
+                                                                                            width: 80%;
+                                                                                            max-width: 1000px;
+                                                                                            background-color: #fff;
+                                                                                            border-radius: 10px;
+                                                                                            overflow: hidden;
+                                                                                            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                                                                                        }
+                                                                                        
+                                                                                        .card {
+                                                                                            flex: 1;
+                                                                                            padding: 30px;
+                                                                                            text-align: start;
+                                                                                            color: #fff;
+                                                                                        }
+                                                                                        
+                                                                                        .card h2 {
+                                                                                            margin-bottom: 15px;
+                                                                                            font-family: "Oswald", system-ui;
+                                                                                            font-weight: 500;
+                                                                                        }
+                                                                                        
+                                                                                        .card p {
+                                                                                            font-size: 16px;
+                                                                                            line-height: 1.5;
+                                                                                            margin-bottom: 20px;
+                                                                                            font-family: Arial, Helvetica, sans-serif;
+                                                                                            font-weight: 500;
+                                                                                        }
+                                                                                        
+                                                                                        .card .img {
+                                                                                            width: 60px;
+                                                                                            height: 60px;
+                                                                                            border-radius: 50%;
+                                                                                            background-color: rgba(255, 255, 255, 0.2);
+                                                                                            margin: 0 auto 20px;
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            align-items: center;
+                                                                                        }
+                                                                                        
+                                                                                        .card .icon img {
+                                                                                            width: 50px;
+                                                                                            height: 30px;
+                                                                                        }
+                                                                                        
+                                                                                        .card button {
+                                                                                            background-color: #fff;
+                                                                                            color: #333;
+                                                                                            padding: 10px 20px;
+                                                                                            border: none;
+                                                                                            border-radius: 25px;
+                                                                                            cursor: pointer;
+                                                                                            transition: background-color 0.3s ease;
+                                                                                            font-family: "Roboto", sans-serif;
+                                                                                            font-weight: 400;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(1) button {
+                                                                                            color: #da9424;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(2) button {
+                                                                                            color: #147979;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(3) button {
+                                                                                            color: #055e48;
+                                                                                        }
+                                                                                        
+                                                                                        .card button:hover {
+                                                                                            background-color: #eee;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(1) button:active {
+                                                                                            background-color: #da9424;
+                                                                                            border: 2px solid white;
+                                                                                            color: white;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(2) button:active {
+                                                                                            background-color: #147979;
+                                                                                            border: 2px solid white;
+                                                                                            color: white;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(3) button:active {
+                                                                                            background-color: #055e48;
+                                                                                            border: 2px solid white;
+                                                                                            color: white;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(1) {
+                                                                                            background-color: #da9424;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(2) {
+                                                                                            background-color: #147979;
+                                                                                        }
+                                                                                        
+                                                                                        .card:nth-child(3) {
+                                                                                            background-color: #055e48;
+                                                                                        }
+                                                                                        
+                                                                                        @media (max-width: 767px) {
+                                                                                            body {
+                                                                                                font-family: sans-serif;
+                                                                                            }
+                                                                                            .container {
+                                                                                                display: flex;
+                                                                                                flex-direction: column;
+                                                                                                width: 300px;
+                                                                                                margin: 0 auto;
+                                                                                            }
+                                                                                            .card {
+                                                                                                padding: 20px;
+                                                                                                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                                                                                            }
+                                                                                            .card-header {
+                                                                                                display: flex;
+                                                                                                align-items: center;
+                                                                                                justify-content: center;
+                                                                                                margin-bottom: 10px;
+                                                                                            }
+                                                                                            .card-header img {
+                                                                                                width: 50px;
+                                                                                                height: 50px;
+                                                                                                margin-right: 10px;
+                                                                                            }
+                                                                                            .card-body {
+                                                                                                text-align: center;
+                                                                                            }
+                                                                                            .button {
+                                                                                                padding: 10px 20px;
+                                                                                                background-color: #4CAF50;
+                                                                                                color: white;
+                                                                                                border: none;
+                                                                                                border-radius: 5px;
+                                                                                                cursor: pointer;
+                                                                                            }
+                                                                                        }
